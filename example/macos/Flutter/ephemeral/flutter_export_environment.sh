@@ -1,6 +1,6 @@
 #!/bin/sh
 # This is a generated file; do not edit or check into version control.
-export "FLUTTER_ROOT=/Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.1"
+export "FLUTTER_ROOT=/Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.2"
 export "FLUTTER_APPLICATION_PATH=/Users/edgar/Desktop/workspace/chum_fullstack/chum_front_end/packages/ffmpeg_kit_flutter_new/example"
 export "COCOAPODS_PARALLEL_CODE_SIGN=true"
 export "FLUTTER_BUILD_DIR=build"

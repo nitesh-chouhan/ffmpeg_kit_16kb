@@ -5,7 +5,7 @@
 
 ### 1. Features
 
-- Updated Android and MacOS bindings to work with Flutter 3.32.1
+- Updated Android and MacOS bindings to work with Flutter 3.32.2
 - Includes both `FFmpeg` and `FFprobe`
 - Supports
     - `Android`, `iOS` and `macOS`
