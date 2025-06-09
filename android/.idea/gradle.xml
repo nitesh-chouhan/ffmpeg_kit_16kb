@@ -7,9 +7,9 @@
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$PROJECT_DIR$/../../../../../sdk/fvm/versions/3.32.1/packages/flutter_tools/gradle" name="gradle">
+              <build path="$PROJECT_DIR$/../../../../../sdk/fvm/versions/3.32.2/packages/flutter_tools/gradle" name="gradle">
                 <projects>
-                  <project path="$PROJECT_DIR$/../../../../../sdk/fvm/versions/3.32.1/packages/flutter_tools/gradle" />
+                  <project path="$PROJECT_DIR$/../../../../../sdk/fvm/versions/3.32.2/packages/flutter_tools/gradle" />
                 </projects>
               </build>
             </builds>
@@ -21,7 +21,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/../../../../../sdk/fvm/versions/3.32.1/packages/flutter_tools/gradle" />
+            <option value="$PROJECT_DIR$/../../../../../sdk/fvm/versions/3.32.2/packages/flutter_tools/gradle" />
           </set>
         </option>
       </GradleProjectSettings>
