@@ -39,13 +39,13 @@
     },
     {
       "name": "flutter",
-      "rootUri": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.1/packages/flutter",
+      "rootUri": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.2/packages/flutter",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
     {
       "name": "flutter_test",
-      "rootUri": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.1/packages/flutter_test",
+      "rootUri": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.2/packages/flutter_test",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -99,7 +99,7 @@
     },
     {
       "name": "sky_engine",
-      "rootUri": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.1/bin/cache/pkg/sky_engine",
+      "rootUri": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.2/bin/cache/pkg/sky_engine",
       "packageUri": "lib/",
       "languageVersion": "3.7"
     },
@@ -160,7 +160,7 @@
   ],
   "generator": "pub",
   "generatorVersion": "3.8.1",
-  "flutterRoot": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.1",
-  "flutterVersion": "3.32.1",
+  "flutterRoot": "file:///Users/edgar/Desktop/workspace/sdk/fvm/versions/3.32.2",
+  "flutterVersion": "3.32.2",
   "pubCache": "file:///Users/edgar/.pub-cache"
 }

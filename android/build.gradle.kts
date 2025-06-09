@@ -61,14 +61,14 @@ android {
     }
 }
 //val flutterSdkPath = gradle.extra.get("flutterSdkPath")
-val flutterSdkPath = run {
-    val properties = Properties()
-    file("local.properties").inputStream().use { properties.load(it) }
-    val flutterSdkPath = properties.getProperty("flutter.sdk")
-    require(flutterSdkPath != null) { "flutter.sdk not set in local.properties" }
-    flutterSdkPath
-}
-println("这里获取到的 Flutter SDK Path: $flutterSdkPath")
+//val flutterSdkPath = run {
+//    val properties = Properties()
+//    file("local.properties").inputStream().use { properties.load(it) }
+//    val flutterSdkPath = properties.getProperty("flutter.sdk")
+//    require(flutterSdkPath != null) { "flutter.sdk not set in local.properties" }
+//    flutterSdkPath
+//}
+//println("这里获取到的 Flutter SDK Path: $flutterSdkPath")
 dependencies {
     implementation(fileTree(mapOf("dir" to "libs", "include" to listOf("*.jar"))))
     implementation("androidx.core:core-ktx:1.16.0")
@@ -76,7 +76,7 @@ dependencies {
     implementation("com.google.android.material:material:1.12.0")
     implementation("com.arthenica:smart-exception-java9:0.2.1")
     implementation("com.arthenica:smart-exception-common:0.2.1")
-    compileOnly(files("$flutterSdkPath/bin/cache/artifacts/engine/android-arm/flutter.jar"))
+//    compileOnly(files("$flutterSdkPath/bin/cache/artifacts/engine/android-arm/flutter.jar"))
 }
 
 //subprojects {
