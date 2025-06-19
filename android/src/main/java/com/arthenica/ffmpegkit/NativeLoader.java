@@ -155,19 +155,22 @@ public class NativeLoader {
       stringBuilder.append(Build.DEVICE);
       stringBuilder.append(", api level: ");
       stringBuilder.append(VERSION.SDK_INT);
-      if (VERSION.SDK_INT >= 21) {
-         stringBuilder.append(", abis: ");
-         stringBuilder.append(FFmpegKitConfig.argumentsToString(Build.SUPPORTED_ABIS));
-         stringBuilder.append(", 32bit abis: ");
-         stringBuilder.append(FFmpegKitConfig.argumentsToString(Build.SUPPORTED_32_BIT_ABIS));
-         stringBuilder.append(", 64bit abis: ");
-         stringBuilder.append(FFmpegKitConfig.argumentsToString(Build.SUPPORTED_64_BIT_ABIS));
-      } else {
-         stringBuilder.append(", cpu abis: ");
-         stringBuilder.append(Build.CPU_ABI);
-         stringBuilder.append(", cpu abi2s: ");
-         stringBuilder.append(Build.CPU_ABI2);
-      }
+//      if (VERSION.SDK_INT >= 21) {
+//         stringBuilder.append(", abis: ");
+//         stringBuilder.append(FFmpegKitConfig.argumentsToString(Build.SUPPORTED_ABIS));
+//         stringBuilder.append(", 32bit abis: ");
+//         stringBuilder.append(FFmpegKitConfig.argumentsToString(Build.SUPPORTED_32_BIT_ABIS));
+//         stringBuilder.append(", 64bit abis: ");
+//         stringBuilder.append(FFmpegKitConfig.argumentsToString(Build.SUPPORTED_64_BIT_ABIS));
+//      } else {
+         String[] supportedAbis = Build.SUPPORTED_ABIS;
+
+//         stringBuilder.append(", cpu abis: ");
+//         stringBuilder.append(Build.CPU_ABI);
+//         stringBuilder.append(", cpu abi2s: ");
+//         stringBuilder.append(Build.CPU_ABI2);
+         stringBuilder.append(String.join(", ", supportedAbis));
+//      }
 
       return stringBuilder.toString();
    }

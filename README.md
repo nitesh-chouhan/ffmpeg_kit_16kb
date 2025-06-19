@@ -1,7 +1,7 @@
 
 # FFmpeg Support 16kb page sizes
 ## Upgraded version of the original [Flutter FFmpegKit](https://github.com/arthenica/ffmpeg-kit/tree/main/flutter/flutter).
-## Upgraded version of the original [ffmpeg_kit_flutter_new:](https://github.com/sk3llo/ffmpeg_kit_flutter).
+## Upgraded version of the original [ffmpeg_kit_flutter_new:2.0.0](https://github.com/sk3llo/ffmpeg_kit_flutter).
 
 ### 1. Features
 
@@ -36,7 +36,7 @@ Add `ffmpeg_kit_16kb` as a dependency in your `pubspec.yaml file`.
 
 ```yaml
 dependencies:  
- ffmpeg_kit_16kb: ^1.0.1
+ ffmpeg_kit_16kb: ^1.0.3
 ```
 
 NOTE: Android know issue:

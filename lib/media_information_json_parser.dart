@@ -17,11 +17,11 @@
  * along with FFmpegKit.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import 'platform_interface/ffmpeg_kit_flutter_platform_interface.dart';
 import 'package:flutter/services.dart';
 
 import 'ffmpeg_kit_config.dart';
 import 'media_information.dart';
+import 'platform_interface/ffmpeg_kit_flutter_platform_interface.dart';
 
 /// A parser that constructs "MediaInformation" from FFprobe's json output.
 class MediaInformationJsonParser {

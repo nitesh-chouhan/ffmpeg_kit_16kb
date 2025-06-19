@@ -1,10 +1,10 @@
-import 'platform_interface/ffmpeg_kit_flutter_platform_interface.dart';
 import 'package:flutter/services.dart';
 
 import 'ffmpeg_kit_config.dart';
 import 'ffmpeg_session.dart';
 import 'ffmpeg_session_complete_callback.dart';
 import 'log_callback.dart';
+import 'platform_interface/ffmpeg_kit_flutter_platform_interface.dart';
 import 'src/ffmpeg_kit_factory.dart';
 import 'statistics_callback.dart';
 

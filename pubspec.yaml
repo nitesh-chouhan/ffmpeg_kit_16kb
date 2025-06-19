@@ -2,7 +2,7 @@ name: ffmpeg_kit_16kb
 description: FFmpeg Kit for Flutter with Full GPL and updated bindings. Supports Android, iOS and macOS platforms.
 repository: https://github.com/zhouxin1233/ffmpeg_kit_16kb
 homepage: https://github.com/zhouxin1233/ffmpeg_kit_16kb
-version: 1.0.2
+version: 1.0.3
 
 environment:
   sdk: ^3.8.1
