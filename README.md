@@ -5,7 +5,7 @@
 
 ### 1. Features
 
-- Updated Android and MacOS bindings to work with Flutter 3.32.2
+- Updated Android and MacOS bindings to work with Flutter 3.32.5
 - Includes both `FFmpeg` and `FFprobe`
 - Supports
     - `Android`, `iOS` and `macOS`
@@ -71,7 +71,7 @@ The following table shows Android API level, iOS deployment target and macOS dep
 1. Execute FFmpeg commands.
 
 ```dart  
-import 'package:ffmpeg_kit_flutter/ffmpeg_kit.dart';
+import 'package:ffmpeg_kit_16kb/ffmpeg_kit.dart';
 
 FFmpegKit.execute('-i file1.mp4 -c:v mpeg4 file2.mp4').then((session) async {
     final returnCode = await session.getReturnCode();  

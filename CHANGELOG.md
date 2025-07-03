@@ -1,3 +1,10 @@
+## 1.0.4
+
+*
+* Fixed Android and MacOS bindings, Support 16kb page sizes
+* Upgraded FFmpegKitFlutterPlugin.java to work with Flutter 3.32.5
+* Upgraded NDK to 29.0.13113456
+
 ## 1.0.3
 
 * 
